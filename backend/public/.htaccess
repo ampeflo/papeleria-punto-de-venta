@@ -1,0 +1,7 @@
+# Esta carpeta es la única pública del backend
+Require all granted
+
+# Toda petición que no sea un archivo real se envía a index.php (el router)
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [QSA,L]

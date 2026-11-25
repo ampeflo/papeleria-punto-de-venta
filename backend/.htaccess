@@ -1,0 +1,3 @@
+# Nadie puede abrir app/, config/ ni routes/ desde el navegador.
+# Solo public/ es accesible (su propio .htaccess lo permite).
+Require all denied

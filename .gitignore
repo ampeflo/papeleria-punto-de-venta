@@ -1,0 +1,12 @@
+# Sistema operativo / editores
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+
+# Registros
+*.log
+
+# Configuración local del editor/asistente
+.claude/
+node_modules/
